@@ -77,22 +77,7 @@ body{
     color: rgb(255, 255, 255);
 
 }
-.list li a:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: blue;
-    opacity: 0;
-}
 
-.list li a:hover:after {
-    width: 100%;
-    opacity: 0.8;
-    transition: 0.5s;
-}
 .list-dropdown {
     position: relative;
     display: inline-block;
@@ -271,7 +256,7 @@ color:  rgb(52, 39, 170) ;
 .sec2div1:hover .sec2p2{
     color: black;
 }
-/* //////////////////////////////////////////////// */
+
 img{
     width: 300px;
     height: 250px;
